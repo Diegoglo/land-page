@@ -8,17 +8,13 @@ const routes: Routes = [
     redirectTo: 'land-page',
     pathMatch: 'full'
   },
-  /*{
-    path: 'visitor',
-    loadChildren: () => import('./visitor/visitor.module')
-      .then(m => m.VisitorModule)
-  },*/
-  /*{
-    path: 'admin',
-    loadChildren: () => import('./admin/admin.module')
-      .then(m => m.AdminModule)
-  }, */
+  {
+    path: 'land-page',
+    loadChildren: () => import('./land-page/land-page.module')
+      .then(m => m.LandPageModule)
+  },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
