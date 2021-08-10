@@ -1,19 +1,15 @@
 .nav-font{
-    color: white;; 
+    color: white; 
     font-family: 'Red Rose'; 
-    font-size: 1.9vw;
+    font-size: 2.7vh;
 }
 .sidebar{
     display:flex;
     align-items: center;
     flex-direction: row;
     justify-content: flex-end;
-
-
-
-    /* float: right;
-    width: 60.2321429%; */
 }
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
