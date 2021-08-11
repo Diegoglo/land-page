@@ -9,7 +9,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #17202A;
 }
 
 .container{
@@ -19,12 +18,13 @@ body{
 
 .cup{
     position: relative;
-    width: 280px;
-    height: 300px;
+    width: 180px; /* 280, 320*/
+    height: 200px;
     background: linear-gradient(to right, #f9f9f9, #d9d9d9);
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
-    left: 68%;
+    left: 80%;
+    transform: translateY(-200%);
 }
 
 .top{
@@ -59,25 +59,14 @@ body{
     border-radius: 50%;
 }
 
-.handle{
-    position: absolute;
-    right: -70px;
-    top:40px;
-    width: 160px;
-    height: 180px;
-    border:25px solid #dcdcdc;
-    border-left: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-radius: 50%;
-    transform: rotate(42deg);
-}
 
 .plate{
     position: absolute;
     bottom:-50px;
-    left:80%;
+    left:87.5%;
+    top: -160%;
     transform: translateX(-50%);
-    width: 500px;
+    width: 400px;
     height: 200px;
     background: linear-gradient(to right, #f9f9f9f9, #e7e7e7);
     border-radius: 50%;

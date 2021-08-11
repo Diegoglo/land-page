@@ -1,5 +1,5 @@
 <ng-container>  
-    <div class="container-fluid py-0 " style="background-color:black">
+    <div class="container-fluid py-0 fixed-top" style="background-color:#F05454">
         <div class="row ">
             <div class="col-1">
                 <img src="./../../../assets/icon/icono.svg" class="img-fluid">            
@@ -7,7 +7,7 @@
             <div class="col-11">
                 <div class="container text-end "> 
                     <div type="button" class="nav-font">
-                        <i class=""> Inicio</i>
+                        <i class=""[routerLink]="['desktop-page']" fragment="inicio"> Inicio</i>
                     </div>
                     <div type="button" class="nav-font">
                         <i class=""> Servicios</i>
@@ -15,7 +15,7 @@
                     <div type="button" class="nav-font">
                         <i class=""> Proyectos</i>
                     </div>
-                    <div type="button" class="nav-font" style="color: #D1CCFF;">
+                    <div type="button" class="nav-font" style="color: #30475E;">
                         <i class=""> CONTACTO</i>
                     </div>
                 </div>

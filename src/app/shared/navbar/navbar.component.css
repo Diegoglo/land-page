@@ -1,6 +1,7 @@
+
 .nav-font{
-    color: white; 
-    font-family: 'Red Rose'; 
+    color: #E8E8E8; 
+    font-family: 'Anton', sans-serif;
     font-size: 2.7vh;
 }
 .sidebar{
@@ -17,4 +18,9 @@
     margin-right: 3%;
     height: 100%;
     align-items: center;
+}
+
+i{
+    font-style: italic;
+    letter-spacing: 3px;
 }
