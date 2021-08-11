@@ -7,7 +7,7 @@ import { NaveComponent} from './components/nave/nave.component'
 const routes: Routes = [
   {
     path:'',
-    component: NaveComponent,
+    component: DesktopPageComponent,
     pathMatch: 'full'
   },
 ];
